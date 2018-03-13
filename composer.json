@@ -36,6 +36,10 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/iterative-it/phpspec.git"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/iterative-it/phpunit-mock-objects.git"
         }
     ],
