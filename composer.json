@@ -21,6 +21,13 @@
         }
     ],
 
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/iterative-it/instantiator.git"
+        }
+    ],
+
     "require": {
         "php":                      "^5.6 || ^7.0",
         "phpspec/prophecy":         "^1.5",
@@ -31,7 +38,7 @@
         "symfony/process":          "^2.7 || ^3.0",
         "symfony/finder":           "^2.7 || ^3.0",
         "symfony/yaml":             "^2.7 || ^3.0",
-        "doctrine/instantiator":    "^1.0.1",
+        "doctrine/instantiator":    "dev-php7.0",
         "ext-tokenizer":            "*"
     },
 
